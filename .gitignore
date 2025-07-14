@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Data and models
+data/data_dlib/
+data/data_faces_from_camera/
+data/features_all.csv
+
+# Database
+attendance.db
+
+# Environment variables
+.env
