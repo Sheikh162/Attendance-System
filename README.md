@@ -34,6 +34,22 @@ Attendance/
 
 ---
 
+## 📦 Data & Model Files
+
+This repository does **not** include the `data/` folder (models, face images, features) due to size and privacy.
+
+**To set up:**
+1. **Download dlib models**  
+   - [shape_predictor_68_face_landmarks.dat](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)  
+   - [dlib_face_recognition_resnet_model_v1.dat](http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2)  
+   - Extract and place them in `data/data_dlib/`.
+
+2. **Register your own faces**  
+   - Run `python get_faces_from_camera_tkinter.py` to capture face images.
+   - Run `python features_extraction_to_csv.py` to generate features.
+
+---
+
 ## Setup & Installation
 
 1. **Clone the repository:**
