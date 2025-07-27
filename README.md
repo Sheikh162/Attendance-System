@@ -1,6 +1,6 @@
 # Face Recognition Attendance System
 
-A Python-based attendance system leveraging real-time face recognition with dlib and OpenCV, featuring a Tkinter GUI for face registration and a Flask web interface for attendance lookup.
+A Python-based attendance system leveraging real-time face recognition with dlib and OpenCV, featuring a Tkinter GUI for face registration and a Flask web interface for attendance lookup. This project was done for the Introduction to IoT course during our second semester.
 
 ---
 
@@ -10,6 +10,17 @@ A Python-based attendance system leveraging real-time face recognition with dlib
 - **Feature Extraction:** Extracts 128D facial features using dlib's ResNet model and stores them in `data/features_all.csv`.
 - **Real-Time Recognition & Attendance:** Recognizes faces from webcam input, marks attendance in an SQLite database (`attendance.db`), and prevents duplicate entries per day.
 - **Web Interface:** Flask app to view attendance records by date, rendered with Bootstrap for a clean UI.
+
+---
+
+
+## Project Screenshots
+
+<img width="934" height="579" alt="image" src="https://github.com/user-attachments/assets/cb55444d-19a3-4a46-aa5a-d70f4c44f019" />
+
+<img width="935" height="554" alt="image" src="https://github.com/user-attachments/assets/5e77e80a-e74d-4dd3-908b-5a0dc621e1dc" />
+
+<img width="1083" height="807" alt="image" src="https://github.com/user-attachments/assets/7e1631dc-ea89-4608-b041-abb83764b769" />
 
 ---
 
@@ -125,15 +136,6 @@ python app.py
 - **Model files** must be downloaded separately due to size and licensing.
 
 ---
-
-## Project Screenshots
-
-<img width="934" height="579" alt="image" src="https://github.com/user-attachments/assets/cb55444d-19a3-4a46-aa5a-d70f4c44f019" />
-
-<img width="935" height="554" alt="image" src="https://github.com/user-attachments/assets/5e77e80a-e74d-4dd3-908b-5a0dc621e1dc" />
-
-<img width="1083" height="807" alt="image" src="https://github.com/user-attachments/assets/7e1631dc-ea89-4608-b041-abb83764b769" />
-
 
 ## Requirements
 
