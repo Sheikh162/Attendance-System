@@ -126,6 +126,12 @@ python app.py
 
 ---
 
+## Project Screenshots
+<img width="935" height="554" alt="image" src="https://github.com/user-attachments/assets/5e77e80a-e74d-4dd3-908b-5a0dc621e1dc" />
+
+<img width="1083" height="807" alt="image" src="https://github.com/user-attachments/assets/7e1631dc-ea89-4608-b041-abb83764b769" />
+
+
 ## Requirements
 
 - Python 3.8+
